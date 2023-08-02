@@ -1,4 +1,4 @@
-/* Read and Print Student Information In C++ */ 
+/* Read Student Information to calculate percentage and print student details using CLASS AND OBJECTS*/ 
 
 #include <iostream> 
 using namespace std; 
