@@ -1,0 +1,66 @@
+/* Read and Print Student Information In C++ */ 
+
+#include <iostream> 
+using namespace std; 
+
+class Student { 
+private: 
+   string name; 
+   int regNo, num; 
+   float total, perc; 
+
+public: 
+   void read(); 
+   void percentage(); 
+   void print();  
+};   
+
+int main() { 
+   Student stu1, stu2; 
+   cout << "\nStudent : Student 1" << endl; 
+   stu1.read(); 
+   stu1.percentage(); 
+   stu1.print(); 
+   cout << "\nStudent : Student 2" << endl; 
+   stu2.read(); 
+   stu2.percentage(); 
+   stu2.print(); 
+
+   return 0; 
+} 
+
+void Student:: read() { 
+      cout << "Enter Name :"; 
+      cin >> name; 
+
+      cout << "Enter Registration Number :"; 
+      cin >> regNo; 
+
+      cout << "Enter Total Marks for 500 :"; 
+      cin >> total; 
+   } 
+
+void Student :: percentage() { 
+      perc = (total / 500)*100; 
+} 
+
+void Student :: print() { 
+  cout << "Name :" << name << endl; 
+  cout << "Registration Number :" << regNo << endl; 
+  cout << "Total Marks:" << total << endl; 
+  cout << "Percentage :" << perc << endl; 
+
+  if(perc < 20){ 
+      cout << "gpa : D"; 
+  } 
+  else if(perc >21 && perc < 50){ 
+      cout << "gpa : C"; 
+  } 
+  else if (perc > 51 && perc < 80){ 
+      cout << "gpa : B"; 
+  } 
+  else 
+      cout << "gpa : A"; 
+} 
+
+  
