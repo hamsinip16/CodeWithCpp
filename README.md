@@ -1,3 +1,8 @@
 # CodeWithC++
 coding logics to cover all concepts of C++
-1. 
+1. CLASS & OBJECTS
+2. CONSTRUCTORS & DESTRUCTORS
+3. INHERITANCE __>>single >>hierarchical >> multilevel >> multiple >> hybrid__ >> VIRTUAL INHERITANCE
+4. POLYMORPHISM __FUNCTION OVERLOADING >> FUNCTION OVERRIDING >> OPERATOR OVERLOADING >> VIRTUAL FUNCITONS__
+5. ENCAPSULATION
+6. ABSTRACTION 
